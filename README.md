@@ -9,3 +9,6 @@ Push to github: git push
 Push to heroku: git push heroku
 
 git checkout -b branch-name
+git commit -m "Finished branch-name"
+git checkout master
+git merge branch-name
