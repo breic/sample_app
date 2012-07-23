@@ -12,3 +12,7 @@ git checkout -b branch-name
 git commit -m "Finished branch-name"
 git checkout master
 git merge branch-name
+
+rails console --sandbox
+
+$ bundle exec rake db:test:prepare	# copies test.sqlite3 from development.sqlite3
