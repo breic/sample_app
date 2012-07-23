@@ -6,7 +6,7 @@ by [Michael Hartl](http://michaelhartl.com/).
 
 
 Push to github: git push
-Push to heroku: git push heroku
+Push to heroku: git push heroku (heroku run rake db:migrate)
 
 git checkout -b branch-name
 git commit -m "Finished branch-name"
